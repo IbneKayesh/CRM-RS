@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace CRM
 {
-    public partial class frmNavigation : Form
+    public partial class frmDumpComponents : Form
     {
-        public frmNavigation()
+        public frmDumpComponents()
         {
             InitializeComponent();
         }
