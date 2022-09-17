@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnfrmUser = new System.Windows.Forms.Button();
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.dataSet1 = new System.Data.DataSet();
@@ -36,7 +37,11 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnfrmUser
@@ -72,7 +77,7 @@
             // 
             this.groupBox1.Location = new System.Drawing.Point(143, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 100);
+            this.groupBox1.Size = new System.Drawing.Size(200, 45);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
@@ -97,17 +102,26 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(234, 142);
+            this.dateTimePicker1.Location = new System.Drawing.Point(349, 22);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 25);
             this.dateTimePicker1.TabIndex = 7;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(172, 79);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(240, 68);
+            this.dataGridView1.TabIndex = 8;
             // 
             // frmNavigation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(549, 294);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.comboBox1);
@@ -121,6 +135,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmNavigation";
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,6 +152,8 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.BindingSource bindingSource1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
 

@@ -58,6 +58,12 @@
     <Compile Include="frmUser.Designer.cs">
       <DependentUpon>frmUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUserPermissions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserPermissions.Designer.cs">
+      <DependentUpon>frmUserPermissions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmNavigation.resx">
@@ -65,6 +71,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmUser.resx">
       <DependentUpon>frmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserPermissions.resx">
+      <DependentUpon>frmUserPermissions.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
