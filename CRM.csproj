@@ -52,6 +52,12 @@
     <Compile Include="frmDumpComponents.Designer.cs">
       <DependentUpon>frmDumpComponents.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImport.Designer.cs">
+      <DependentUpon>frmImport.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmScheduleActivity.cs">
       <SubType>Form</SubType>
     </Compile>
