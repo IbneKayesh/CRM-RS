@@ -58,6 +58,66 @@
     <Compile Include="frmImport.Designer.cs">
       <DependentUpon>frmImport.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLoadData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoadData.designer.cs">
+      <DependentUpon>frmLoadData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLookup.designer.cs">
+      <DependentUpon>frmLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMapSalesRoute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMapSalesRoute.designer.cs">
+      <DependentUpon>frmMapSalesRoute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpenQuote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpenQuote.Designer.cs">
+      <DependentUpon>frmOpenQuote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpenRMA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpenRMA.designer.cs">
+      <DependentUpon>frmOpenRMA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPickArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPickArea.designer.cs">
+      <DependentUpon>frmPickArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPickup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPickup.designer.cs">
+      <DependentUpon>frmPickup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPreferences.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPreferences.designer.cs">
+      <DependentUpon>frmPreferences.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmQuote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuote.designer.cs">
+      <DependentUpon>frmQuote.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmScheduleActivity.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +140,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmDumpComponents.resx">
       <DependentUpon>frmDumpComponents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPickup.resx">
+      <DependentUpon>frmPickup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPreferences.resx">
+      <DependentUpon>frmPreferences.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuote.resx">
+      <DependentUpon>frmQuote.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmScheduleActivity.resx">
       <DependentUpon>frmScheduleActivity.cs</DependentUpon>
