@@ -1,0 +1,21 @@
+﻿Task List
+Visual Studio Comunity 2022
+
+frmEmailTemplate - Designer - OK
+frmImport - Designer - OK
+frmLoadData - Designer - OK
+frmLookup - Designer - OK
+frmMapSalesRoute - Designer - OK
+frmOpenQuote - Designer - OK
+frmOpenRMA - Designer - OK
+frmPickArea - Designer - OK
+frmPickup - Designer - OK
+frmPreferences - Designer - OK
+frmQuote - Designer - OK
+frmRMA - Designer - OK
+frmSalesOrder - Designer - OK
+frmScheduleActivity - Designer - OK
+frmUser - Designer - OK
+frmUserPermissions - Designer - OK
+
+frmMain - Designer - OK
