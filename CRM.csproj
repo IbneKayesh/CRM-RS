@@ -46,17 +46,53 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmApplicationControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmApplicationControl.Designer.cs">
+      <DependentUpon>frmApplicationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustIssues.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustIssues.designer.cs">
+      <DependentUpon>frmCustIssues.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDropDowns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDropDowns.designer.cs">
+      <DependentUpon>frmDropDowns.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmDumpComponents.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmDumpComponents.Designer.cs">
       <DependentUpon>frmDumpComponents.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmeBlast.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmeBlast.designer.cs">
+      <DependentUpon>frmeBlast.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEmailTemplate.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmEmailTemplate.Designer.cs">
       <DependentUpon>frmEmailTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistoryType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistoryType.designer.cs">
+      <DependentUpon>frmHistoryType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHorseRace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHorseRace.designer.cs">
+      <DependentUpon>frmHorseRace.cs</DependentUpon>
     </Compile>
     <Compile Include="frmImport.cs">
       <SubType>Form</SubType>
@@ -75,6 +111,12 @@
     </Compile>
     <Compile Include="frmLookup.designer.cs">
       <DependentUpon>frmLookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLookupFields.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLookupFields.designer.cs">
+      <DependentUpon>frmLookupFields.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -100,6 +142,12 @@
     <Compile Include="frmOpenRMA.designer.cs">
       <DependentUpon>frmOpenRMA.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPasswordChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPasswordChange.designer.cs">
+      <DependentUpon>frmPasswordChange.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPickArea.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +159,12 @@
     </Compile>
     <Compile Include="frmPickup.designer.cs">
       <DependentUpon>frmPickup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPickups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPickups.designer.cs">
+      <DependentUpon>frmPickups.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPreferences.cs">
       <SubType>Form</SubType>
@@ -156,17 +210,47 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmApplicationControl.resx">
+      <DependentUpon>frmApplicationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustIssues.resx">
+      <DependentUpon>frmCustIssues.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDropDowns.resx">
+      <DependentUpon>frmDropDowns.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDumpComponents.resx">
       <DependentUpon>frmDumpComponents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmeBlast.resx">
+      <DependentUpon>frmeBlast.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEmailTemplate.resx">
       <DependentUpon>frmEmailTemplate.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmHistoryType.resx">
+      <DependentUpon>frmHistoryType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHorseRace.resx">
+      <DependentUpon>frmHorseRace.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImport.resx">
+      <DependentUpon>frmImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLookupFields.resx">
+      <DependentUpon>frmLookupFields.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPasswordChange.resx">
+      <DependentUpon>frmPasswordChange.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPickup.resx">
       <DependentUpon>frmPickup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPickups.resx">
+      <DependentUpon>frmPickups.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPreferences.resx">
       <DependentUpon>frmPreferences.cs</DependentUpon>

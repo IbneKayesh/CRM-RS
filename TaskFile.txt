@@ -19,3 +19,6 @@ frmUser - Designer - OK
 frmUserPermissions - Designer - OK
 
 frmMain - Designer - OK
+
+
+frmApplicationControl  - Designer - OK
