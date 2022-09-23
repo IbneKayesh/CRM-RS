@@ -50,7 +50,7 @@ namespace CRM
             this.IdGroupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.IdGroupBox1.Controls.Add(this.btnRefresh);
             this.IdGroupBox1.Font = new System.Drawing.Font("Arial", 10F);
-            this.IdGroupBox1.Location = new System.Drawing.Point(707, 12);
+            this.IdGroupBox1.Location = new System.Drawing.Point(721, 15);
             this.IdGroupBox1.Name = "IdGroupBox1";
             this.IdGroupBox1.Size = new System.Drawing.Size(114, 78);
             this.IdGroupBox1.TabIndex = 16;
@@ -120,7 +120,7 @@ namespace CRM
             this.gridDetail.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.gridDetail.Location = new System.Drawing.Point(8, 59);
             this.gridDetail.Name = "gridDetail";
-            this.gridDetail.Size = new System.Drawing.Size(684, 385);
+            this.gridDetail.Size = new System.Drawing.Size(687, 385);
             this.gridDetail.TabIndex = 45;
             this.gridDetail.DoubleClick += new System.EventHandler(this.gridDetail_DoubleClick);
             // 
@@ -139,7 +139,7 @@ namespace CRM
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(847, 450);
             this.ControlBox = false;
             this.Controls.Add(this.lblCount);
             this.Controls.Add(this.gridDetail);

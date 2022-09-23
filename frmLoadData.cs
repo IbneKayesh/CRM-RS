@@ -541,7 +541,7 @@ namespace CRM
             //SqlConnection sqlConnection = new SqlConnection(System.Configuration.ConfigurationSettings.AppSettings["IR2ConnectionString"]);
 
             //string dataSource;
-            //string result;
+            string result;
             //try
             //{
             //    sqlConnection.Open();
@@ -551,7 +551,7 @@ namespace CRM
             //catch (Exception expr_20)
             //{
             //    ProjectData.SetProjectError(expr_20);
-            //    result = "BAD";
+                result = "BAD";
             //    ProjectData.ClearProjectError();
             //    return result;
             //}

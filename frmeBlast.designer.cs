@@ -46,6 +46,7 @@ namespace CRM
             this.btnSend.TabIndex = 0;
             this.btnSend.Text = "send Email";
             this.btnSend.UseVisualStyleBackColor = false;
+            this.btnSend.Click += new System.EventHandler(this.IdButton1_Click);
             // 
             // frmeBlast
             // 

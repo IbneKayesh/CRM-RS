@@ -172,6 +172,12 @@
     <Compile Include="frmPreferences.designer.cs">
       <DependentUpon>frmPreferences.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmProductivity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductivity.Designer.cs">
+      <DependentUpon>frmProductivity.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmQuote.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -183,6 +189,18 @@
     </Compile>
     <Compile Include="frmRMA.designer.cs">
       <DependentUpon>frmRMA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptCall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptCall.Designer.cs">
+      <DependentUpon>frmRptCall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptSalesTotals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptSalesTotals.Designer.cs">
+      <DependentUpon>frmRptSalesTotals.cs</DependentUpon>
     </Compile>
     <Compile Include="frmSalesOrder.cs">
       <SubType>Form</SubType>
@@ -196,11 +214,59 @@
     <Compile Include="frmScheduleActivity.Designer.cs">
       <DependentUpon>frmScheduleActivity.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmTaskType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTaskType.Designer.cs">
+      <DependentUpon>frmTaskType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTMActivity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTMActivity.Designer.cs">
+      <DependentUpon>frmTMActivity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTMNewCust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTMNewCust.Designer.cs">
+      <DependentUpon>frmTMNewCust.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTodaysActivities.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTodaysActivities.Designer.cs">
+      <DependentUpon>frmTodaysActivities.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmToDoPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmToDoPopup.Designer.cs">
+      <DependentUpon>frmToDoPopup.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmUser.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmUser.Designer.cs">
       <DependentUpon>frmUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserForms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserForms.Designer.cs">
+      <DependentUpon>frmUserForms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserGroups.Designer.cs">
+      <DependentUpon>frmUserGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUserLogsGrid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUserLogsGrid.Designer.cs">
+      <DependentUpon>frmUserLogsGrid.cs</DependentUpon>
     </Compile>
     <Compile Include="frmUserPermissions.cs">
       <SubType>Form</SubType>
@@ -255,11 +321,20 @@
     <EmbeddedResource Include="frmPreferences.resx">
       <DependentUpon>frmPreferences.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmProductivity.resx">
+      <DependentUpon>frmProductivity.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmQuote.resx">
       <DependentUpon>frmQuote.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmRMA.resx">
       <DependentUpon>frmRMA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptCall.resx">
+      <DependentUpon>frmRptCall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptSalesTotals.resx">
+      <DependentUpon>frmRptSalesTotals.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmSalesOrder.resx">
       <DependentUpon>frmSalesOrder.cs</DependentUpon>
@@ -267,8 +342,32 @@
     <EmbeddedResource Include="frmScheduleActivity.resx">
       <DependentUpon>frmScheduleActivity.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmTaskType.resx">
+      <DependentUpon>frmTaskType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTMActivity.resx">
+      <DependentUpon>frmTMActivity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTMNewCust.resx">
+      <DependentUpon>frmTMNewCust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTodaysActivities.resx">
+      <DependentUpon>frmTodaysActivities.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmToDoPopup.resx">
+      <DependentUpon>frmToDoPopup.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmUser.resx">
       <DependentUpon>frmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserForms.resx">
+      <DependentUpon>frmUserForms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserGroups.resx">
+      <DependentUpon>frmUserGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserLogsGrid.resx">
+      <DependentUpon>frmUserLogsGrid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUserPermissions.resx">
       <DependentUpon>frmUserPermissions.cs</DependentUpon>

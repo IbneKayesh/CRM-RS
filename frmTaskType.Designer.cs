@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace CRM
 {
-    partial class frmLookupFields
+    partial class frmTaskType
     {
         /// <summary>
         /// Required designer variable.
@@ -43,7 +43,7 @@ namespace CRM
             this.IdGroupBox1.Controls.Add(this.cmdSave);
             this.IdGroupBox1.Controls.Add(this.cmdCancel);
             this.IdGroupBox1.Font = new System.Drawing.Font("Arial", 10F);
-            this.IdGroupBox1.Location = new System.Drawing.Point(437, 12);
+            this.IdGroupBox1.Location = new System.Drawing.Point(403, 12);
             this.IdGroupBox1.Name = "IdGroupBox1";
             this.IdGroupBox1.Size = new System.Drawing.Size(114, 122);
             this.IdGroupBox1.TabIndex = 11;
@@ -82,27 +82,26 @@ namespace CRM
             this.cmdCancel.UseVisualStyleBackColor = false;
             this.cmdCancel.Click += new System.EventHandler(this.cmdCancel_Click);
             // 
-            // frmLookupFields
+            // frmTaskType
             // 
             this.AcceptButton = this.cmdSave;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Tan;
             this.CancelButton = this.cmdCancel;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(529, 341);
             this.Controls.Add(this.IdGroupBox1);
-            this.Name = "frmLookupFields";
-            this.Tag = "LookupFields";
-            this.Text = "frmLookupFields";
+            this.Name = "frmTaskType";
+            this.Tag = "TaskType";
+            this.Text = "Task Type";
             this.IdGroupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox IdGroupBox1;
         private System.Windows.Forms.Button cmdSave;
         private System.Windows.Forms.Button cmdCancel;
+        private System.Windows.Forms.GroupBox IdGroupBox1;
     }
 }

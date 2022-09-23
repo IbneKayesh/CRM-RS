@@ -63,6 +63,7 @@ namespace CRM
             this.cmdSave.TabIndex = 3;
             this.cmdSave.Text = "&Save";
             this.cmdSave.UseVisualStyleBackColor = false;
+            this.cmdSave.Click += new System.EventHandler(this.cmdSave_Click);
             // 
             // cmdCancel
             // 

@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace CRM
 {
-    public partial class frmLookupFields : Form
+    public partial class frmTaskType : Form
     {
-        public frmLookupFields()
+        public frmTaskType()
         {
             InitializeComponent();
         }
 
-        private void cmdCancel_Click(object sender, EventArgs e)
+        private void cmdSave_Click(object sender, EventArgs e)
         {
-            this.Close();
+
         }
 
-        private void cmdSave_Click(object sender, EventArgs e)
+        private void cmdCancel_Click(object sender, EventArgs e)
         {
 
         }
